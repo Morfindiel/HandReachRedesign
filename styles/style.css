@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+body {	font-family: 'Asap', sans-serif;
+		background: rgba(231,226,224,1.00);
+		margin: 0px;
+}
+a:hover {color:red;}
+.w3-container {padding:10px;}
+.w3-bar {color: white!important;
+	background-color: rgba(7,22,73,1.00)!important}
+
+.w3-button {color: white!important; 
+	background-color: rgba(7,22,73,1.00)!important;
+	margin-right:5!important;}
+.w3-button:hover {background-color: rgba(7,22,73,1.00)!important; color: red!important;}
+
+.w3-border {border-width:3px!important;}
+
+.mainImage {background:linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ), url(../images/BoyAndNurse.jpg);
+			background-size: cover;
+			background-repeat:no-repeat;
+			height: 700px;
+			margin-bottom: 20px;}
+
+.mainImageHomePage {background:linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ), url(../images/BoyAndNurse.jpg);
+			background-size:cover;
+			background-repeat:no-repeat;
+			height: 800px;
+			margin-bottom: 30px;
+	
+}
+@media only screen and (max-width: 601px) {
+    /* For mobile phones: */
+    [class="mainImageHomePage"] {
+background:linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(231,226,224,1.00)
+    ), url(../images/BoyAndNurse.jpg);
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 601px) {
+    /* For mobile phones: */
+    [class="mainImage"] {
+background:linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(231,226,224,1.00)
+    ), url(../images/BoyAndNurse.jpg);
+        height: 700px;
+    }
+}
+
+.rowLogoTitle {
+	padding-top:30px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	width: 95%;
+	margin:0px 0px 0px 5%;
+
+
+}
+#HomePageLogo.rowLogoTitle{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	margin: 0%;
+}
+.smallTitle {font-family: Asap, sans-serif;
+	color: #CD1014;
+	font-size: 40px;
+	text-align: center;
+}
+
+.flexTitle {
+    flex: 60%;
+    max-width: 60%;
+    padding: 0px 0px;
+	text-align: left;
+}
+
+.flexTitle h1  {font-family: Asap, sans-serif;
+	padding: 0px 0px;
+	font-size: 70px;
+	color:#CD1014;
+}
+
+.flexTitle h1 #titleScript {font-family: rollerscript-smooth, sans-serif;
+	font-size: 70px;
+	color: #CD1014;}
+
+.flexLogo {
+    flex: 30%;
+    max-width: 30%;
+	margin: 0px;
+	justify-content: flex-end;}
+
+.flexLogo img{float:right;}
+
+
+
+.campaign {	font-family: 'Asap', sans-serif;
+			position: absolute;
+			top: 550px;
+			color:rgba(7,22,73,1.00);
+			left: 50%;
+			text-align: center;
+			transform: translate(-50%)}
+
+.campaign h1 {	font-family: 'Asap', sans-serif;
+				font-weight:700;
+				font-size: 32px;
+				line-height: 20px;}
+.campaign .button {
+    background-color: rgba(7,22,73,1.00);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.campaign a.button:hover{
+    background-color: rgba(7,22,73,1.00);
+    border: none;
+    color: red;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.slogan h1{	font-family: 'Asap', sans-serif;
+			position: absolute;
+			top: 700px;
+    		left: 50%;
+			width: 90%;
+			text-align: center;
+			font-style: italic;
+			font-weight: 700;
+    		transform: translate(-50%);
+			font-size: 40px;
+			color: rgba(7,22,73,1.00);}
+
+.internalContent{width:90%;
+margin: auto;}
+
+.columnLinks {font-family: 'Asap', sans-serif;
+	width:20%;
+	display: table-cell;
+    padding: 10px 15px 0px 15px;
+	margin: 0px;
+	color:rgba(7,22,73,1.00);
+	background-color: white;
+	text-align: center;
+	border: thick;
+	border-style: solid;
+	border-color: rgba(7,22,73,1.00);
+	vertical-align: top;
+  
+}
+ .columnLinks a {text-decoration: none;
+				padding:5px;}
+
+.columnLinks h1:hover {color:red;}
+.columnText {
+	display: table-cell;
+    padding: 20px 20px;
+	margin: 0px;
+	background-color: white;
+	border-width:1px 0px;
+	border-style: solid;
+	border-color: grey;
+	vertical-align: top;
+}
+.columnTextLarge {
+	font-size: 20px;
+	display: table-cell;
+    padding: 20px 20px;
+	margin: 0px;
+	background-color: white;
+	border-width:1px 0px;
+	border-style: solid;
+	border-color: grey;
+	vertical-align: top;
+}
+.columnInternalText {
+    max-width: 90%;
+    padding: 10px 20px 0px 20px;
+	margin: 0px auto;
+	background-color: white;
+	color:black;
+	font-size: 16px;
+	border-width:1px;
+	border-style: solid;
+	border-color: grey;
+	vertical-align: top;
+}
+
+.columnImage {
+	display: table-cell;
+	max-width: 375px;
+    padding: 10px 10px;
+	margin: 0px;
+	background-color: white;
+	border-width:1px 1px 1px 0px;
+	border-style: solid;
+	border-color: grey;
+}
+.columnImage img {
+width: 350px;
+height:350px;}
+
+.columnInternalImage {
+	flex: none;
+    width: 220px;
+    padding: 10px 10px;
+	margin: 0px;
+	background-color: white;
+	border-width:1px 1px 1px 0px;
+	border-style: solid;
+	border-color: grey;
+}
+.columnInternalImage img {
+			width: 200px}
+.interiorImage {float:left;
+padding:10px 20px 10px 0px;
+max-width:400px;
+max-height:300px;}
+	
+form{padding-bottom: 20px;
+	font-family: Asap, sans-serif;
+	font-weight: bold; 
+	font-size: 20px;
+	color:rgba(7,22,73,1.00);
+}
+form p {text-align: center;
+}
+
+hr { color: black;
+     background: black; 
+     width: 90%; 
+     height: 1px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.bottomHr {display:block;
+			padding-top: 120px;
+			left:5%;}
+
+.missionHeader {
+	width: 30%;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	float: left;
+	padding-left: 5%;
+	color: red;
+	}
+
+.missionHeader h1{font-family: asap, sans-serif;
+	font-size: 50px;
+	color: red;
+ }
+.missionHeader h1 #our {font-family: rollerscript-smooth, sans-serif;
+	font-size: 40px;
+	color: red;
+ }
+.missionText {font-family: 'Asap', sans-serif;
+	float: right;
+	width: 70%;
+	padding-right: 5%;}
+
+.missionText h2 { font-family: 'Asap', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+ }
+.smallMission {font-family: 'Asap', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+    padding:10px 20px 20px 20px;}
+.row {
+width: 90%;
+margin:auto;}
+
+.column {font-family: 'Asap', sans-serif;
+		font-size: 16px;
+    	float: right;
+    	width: 50%;
+		margin-top: 20px;
+	    margin-bottom: 40px;
+		padding-left: 45px;
+		padding-right: 45px;
+}
+
+.emphasize {font-weight: bold;
+			font-size: 20px;}
+
+	div.medals img {width: 1000px;
+		    margin-top: 30px;
+			margin-bottom: 30px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;}
+
+.w3-responsive  h1 {font-family: Asap, sans-serif;
+	text-align: center;}
+
+.w3-table-all {font-family: Asap, sans-serif;
+font-size: 18px;
+font-weight: bold;
+width:90%;
+margin:0px auto 30px auto;}
+
+.footer {
+	font-family: 'asap', sans-serif;
+			font-size: 16px;
+			line-height: 05px;
+			margin: auto;
+			text-align: center;
+	        background-color: none;
+
+}
+.smallFooter {
+	margin-top:25px;}
